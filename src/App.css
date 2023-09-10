@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,57 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.card{
+  width: 0.1rem;
+  flex: 1;
+  margin-right:300%;
+
+}
+
+.main{
+  flex: 1;
+}
+
+.baap{
+  display: flex;
+}
+
+
+.logo{
+  align:center ;
+}
+
+.footer{
+  width:100%;
+  height:10%;
+}
+
+@media only screen and (max-width: 845px) {
+  /* .main{
+    border-style: dotted;
+  } */
+  .main{
+    display:block;
+  }
+  
+  .baap{
+    display:block;
+  }
+  .card{
+    height:50%;
+    width:90%;
+    display:block;
+  }
+
+}
+
+.search{
+  text-decoration: none;
+  color:black;
+}
+
+.search:hover{
+  color:white;
 }
